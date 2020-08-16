@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Care</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        <h1>Covid Health Assessment Test
+        </h1>
+    </div>
+    
+    <form action="mailto:sanvi41206@gmail.com" enctype="text/plain" method="POST">
+        
+        <div>
+            <label for="name">1. Name: </label>
+            <input type="text" placeholder="Enter your Name" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="email">2. Email: </label>
+            <input type="email" placeholder="Enter your Email" id="email" name="user_email"> 
+        </div>
+        <div>
+            <label for="gender">3. Gender: </label>
+            <input class="height" type="radio" name="gender" name="sex" value="Male"><span>Male</span>
+            <input class="height" type="radio" name="gender" name="sex"value="Female"><span>Female</span>
+        </div>
+        <div>
+            <label for="date">4. Enter today's Date: </label>
+            <input type="date"  id="date" name="DATE">
+        </div>
+        <div>
+            <label for="age">5. What's your age?</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label >6. Are you experiencing any of the following symptoms?</label>
+            <div class="symptoms" >
+                <input class="height" type="checkbox" id="Fever" name="Fever">
+        <label for="Fever">Fever</label>
+        <br>
+        <input class="height" type="checkbox" id="Dry cough" name="Dry cough">
+        <label for="Dry cough">Dry cough</label>
+        <br>
+        <input class="height" type="checkbox" id="Tiredness" name="Tiredness">
+        <label for="Tiredness">Tiredness</label>
+        <br>
+        <input class="height" type="checkbox" id="Aches and pains" name="Aches and pains">
+        <label for="Aches and pains">Aches and pains</label>
+        <br>
+        <input class="height" type="checkbox" id="Sore throat" name="Sore throat">
+        <label for="Sore throat">Sore throat</label>
+        <br>
+        <input class="height" type="checkbox" id="Headache" name="Headache">
+        <label for="Headache">Headache</label>
+        <br>
+        <input class="height" type="checkbox" id="Loss of taste or smell" name="Loss of taste or smell">
+        <label for="Loss of taste or smell">Loss of taste or smell</label>
+        <br>
+        <input class="height" type="checkbox" id="A rash on skin" name="A rash on skin">
+        <label for="A rash on skin">A rash on skin</label>
+        <br>
+        <input class="height" type="checkbox" id="Difficulty breathing or shortness of breath" name="Difficulty breathing or shortness of breath">
+        <label for="Difficulty breathing or shortness of breath">Difficulty breathing or shortness of breath</label>
+        <br>
+        <input class="height" type="checkbox" id="Chest pain" name="Chest pain">
+        <label for="Chest pain">Chest pain</label>
+        <br>
+        <input class="height" type="checkbox" id="Loss of speech or movement" name="Loss of speech or movement">
+        <label for="Loss of speech or movement">Loss of speech or movement</label>
+        <br>
+        <input class="height" type="checkbox" id="None of the above" name="None of the above">
+        <label for="None of the above">None of the above</label>       
+            </div>
+        </div>
+       <div >
+        <label >7. Have you ever had any of the following?</label>
+        <div class="symptoms">
+        <input class="height" type="checkbox" id="Diabetes" name="Diabetes">
+        <label for="Diabetes">Diabetes</label>
+        <br>
+        <input class="height" type="checkbox" id="Hypertension" name="Hypertension">
+        <label for="Hypertension">Hypertension</label>
+        <br>
+        <input class="height" type="checkbox" id="Lung disease" name="Lung disease">
+        <label for="Lung disease">Lung disease</label>
+        <br>
+        <input class="height" type="checkbox" id="Heart disease" name="Heart disease">
+        <label for="Heart disease">Heart disease</label>
+        <br>
+        <input class="height" type="checkbox" id="Kidney Disorder" name="Kidney Disorder">
+        <label for="Kidney Disorder">Kidney Disorder</label>
+        <br>
+        <input class="height" type="checkbox" id="None of the above" name="None of the above">
+        <label for="None of the above">None of the above</label>
+        <br>
+    </div>
+       </div>    
+       <div>
+        <label for="interact">8. Did you meet any Covid infected person? </label>
+        
+            <input class="height" type="radio" name="interact" value="Yes"><span>Yes</span>
+            <input class="height" type="radio" name="interact" value="No"><span>No</span>
+        
+       </div>
+       <div>
+        <label for="live nearby">9. Do you live nearby any Covid infected person? </label>
+        <input class="height" type="radio" name="live nearby" value="Yes"><span>Yes</span>
+        <input class="height" type="radio" name="live nearby" value="No"><span>No</span>
+       </div>
+       <div>
+        <label for="travel">10. Have you traveled anywhere internationally in the last 15-40 days? </label>
+        <input class="height" type="radio" name="travel" value="Yes" ><span>Yes</span>
+        <input class="height" type="radio" name="travel" value="No"><span>No</span>
+       </div>
+       <div class="textarea">
+           <div>
+            <label for="more" >11. Did you like my Covid-19 Self Assessment Website ?</label>
+           </div>
+           <div>
+            <textarea id="more" cols="100" rows="10" name="views"></textarea>
+           </div>
+       </div>
+       <div>
+           <input type="Submit" class="btn">
+        
+        
+       </div>
+
+    </form>
+    <div id="image">
+        <img src="images.png" alt="corona">
+    </div>
+</body>
+</html>
